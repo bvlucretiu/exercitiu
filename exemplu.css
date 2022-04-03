@@ -1,3 +1,29 @@
+:root {
+    /* fonturi text */
+    --text-primary:#04034b;
+    --text-secondary:#f3f38d;
+    --text-dark:#5d5848;
+    --text-whait:#ffffff;
+
+    /* Culori background-uri */
+    --bg-primary:#06103c;
+    --bg-seccondary:#c2dade;
+    --bg-dark:#040d27;
+    --bg-light:#f4e8e8;
+
+    /* Culori butoane */
+    --button-color:#1170bd;
+
+    /* Marimi fonturi */
+    --fs-small:0.75rem; /*Cel mai mic */
+    --fs-small:0.875rem; /*Font mediu */
+    --fs-small:1rem; /*Cel mai mare */
+
+
+
+
+
+}
 body {
     margin:0;
     /* height:100vh; */
