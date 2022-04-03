@@ -29,11 +29,20 @@
     --spacing-tiny: 0.25rem; /*4px*/
 
 }
-body {
+
+/* Resetam proprietatile ptr default */
+* {
+    box-sizing: border-box;
+}
+body, h1, h2, h3, p {
     margin:0;
-    /* height:100vh; */
-    border: solid 5px rgb(246, 13, 48);
-    /* margin:2px; */
+    padding: 0;
+    /* border: solid 5px rgb(246, 13, 48); */
+}
+ /* Clase reutilizabile */
+.container {
+    max-width: 1200px;
+    min-width: 320px;
 }
 .nav-position {
     border: solid 5px rgb(24, 212, 40);
