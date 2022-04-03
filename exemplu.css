@@ -15,13 +15,18 @@
     --button-color:#1170bd;
 
     /* Marimi fonturi */
-    --fs-small:0.75rem; /*Cel mai mic */
-    --fs-small:0.875rem; /*Font mediu */
-    --fs-small:1rem; /*Cel mai mare */
+    --fs-small:0.75rem; /*12px - Cel mai mic */
+    --fs-small:0.875rem; /*14px - Font mediu */
+    --fs-small:1rem; /*16px - Font mare */
+    --fs-small:1.25rem; /*20px - Cel mai mare */
 
-
-
-
+    /* Spatiere */
+    --spacing-xxl:3rem; /*48px*/
+    --spacing-xl: 2.625rem; /*42px*/
+    --spacing-large: 1.75rem; /*28px*/
+    --spacing-medium: 1rem; /*16px*/
+    --spacing-small: 0.5rem; /*8px*/
+    --spacing-tiny: 0.25rem; /*4px*/
 
 }
 body {
