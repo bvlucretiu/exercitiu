@@ -1,0 +1,39 @@
+body {
+    margin:0;
+    /* height:100vh; */
+    /* border: solid 5px rgb(89, 233, 243); */
+    /* margin:2px; */
+}
+.nav-position {
+    border: solid 5px rgb(24, 212, 40);
+}
+.main-positon {
+    border: solid 5px red;
+    margin: 1px 1px 1px 1px;
+}
+.main-top {
+    border: solid 5px rgb(8, 131, 34);
+    margin: 1px 1px 1px 1px;
+}
+.main-bottom {
+    border: solid 5px rgb(8, 131, 34);
+    margin: 1px 1px 1px 1px;
+    display: flex;
+}
+.contact-details {
+    width:50%;
+    border: solid 5px rgb(16, 8, 131);
+    margin: 1px 1px 1px 1px;
+}
+
+.contact-detail-box {
+    border: solid 5px rgb(189, 8, 17);
+    margin: 1px 1px 1px 1px;
+}
+.main-bottom .contact-form {
+    width: 50%;
+    border: solid 5px rgb(16, 8, 131);
+    margin: 1px 1px 1px 1px;
+    display: flex;
+    flex-direction: column;
+}
